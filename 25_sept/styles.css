@@ -1,0 +1,23 @@
+p{
+    color: purple;
+}
+h1{
+    color: blue;
+}
+
+.colorA{
+    color: brown;
+    background-color: lightblue;
+
+}
+#special{
+    color: aquamarine;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.colorB{
+    color: burlywood;
+    text-decoration: underline;
+}
