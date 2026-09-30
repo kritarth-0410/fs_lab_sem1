@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Forms</title>
+  </head>
+  <body>
+    <h2>We are learning HTML forms today.</h2>
+    
+    <form action="/server">
+        <label for="name">Enter Your Name:</label>
+        <br>
+        <input id="name" type="text" placeholder="Kritarth" name="name" required minlength="4" maxlength="50">
+        <br>
+        <br>
+        <label for="email">Enter Your Email:</label>
+        <br>
+        <input id="email" type="email" placeholder="example@gmail.com" name="email" required maxlength="30">
+        <br>
+        <br>
+        <label for="pass">Password:</label>
+        <br>
+        <input type="Password" id="pass" name="pass">
+        <br>
+        <br>
+        <label for="age">Enter Your Age:</label>
+        <br>
+        <input id="age" type="number" placeholder="18" name="age" min="0" max="100">
+        <br>
+        <br>
+        <label for="Birth_Date">DOB</label>
+        <br>
+        <input type="date" id="Birth_Date" name="DOB">
+        <br>
+        <br>
+        <label for="color">Color</label>
+        <br>
+        <input type="color" id="color" name="color">
+        <br>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        
+        <!-- alternate way to create button
+        <input type="submit">
+        <input type="reset"> -->
+        
+        <br>
+        <br>
+        <label for="Gender-male">Male</label>
+        <input type="radio" id="Gender-male" name="Gender">
+        <br>
+        <label for="Gender-female">Female</label>
+        <input type="radio" id="Gender-female" name="Gender">
+        <br>
+        <br>
+        <label for="batch-lecun">Lecun</label>
+        <input type="radio" id="batch-lecun" name="batch">
+        <br>
+        <label for="batch-bengio">Bengio</label>
+        <input type="radio" id="batch-bengio" name="batch">
+        <br>
+        <br>
+        
+      </form>
+  </body>
+</html>
